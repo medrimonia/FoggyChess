@@ -45,8 +45,8 @@ public class FoggyChess {
 		}
 		addPiece(new Queen(ChessPlayer.WHITE), 0, 3);
 		addPiece(new Queen(ChessPlayer.BLACK), 7, 3);
-		addPiece(new King(ChessPlayer.WHITE), 0, 3);
-		addPiece(new King(ChessPlayer.BLACK), 7, 3);
+		addPiece(new King(ChessPlayer.WHITE), 0, 4);
+		addPiece(new King(ChessPlayer.BLACK), 7, 4);
 	}
 	
 	public void display()

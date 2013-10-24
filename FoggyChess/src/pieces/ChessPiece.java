@@ -10,6 +10,7 @@ public class ChessPiece {
 	protected ChessPiece(ChessPlayer owner, char shortName)
 	{
 		this.owner = owner;
+		this.shortName = shortName;
 	}
 	
 	public ChessPlayer getOwner(){
